@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vigil turns critical price levels into impossible-to-miss phone calls.">
+    <title>Vigil</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg class="liquid-glass-defs" aria-hidden="true" focusable="false">
+      <filter id="liquid-glass-distortion" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feTurbulence id="liquid-glass-noise" type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="1" seed="8" result="noise"></feTurbulence>
+        <feDisplacementMap id="liquid-glass-displace" in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+      </filter>
+    </svg>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="#">Vigil</a>
+      <div class="nav-links">
+        <a href="#how-it-works">HOW IT WORKS</a>
+        <a href="#features">FEATURES</a>
+        <a href="#pricing">PRICING</a>
+      </div>
+      <a class="button button-outline nav-button" href="#pricing">GET EARLY ACCESS</a>
+    </nav>
+
+    <main>
+      <section class="section hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <h1 id="hero-title">
+            <span>THE MARKET</span>
+            <span>MOVES</span>
+            <span class="yellow">YOUR PHONE</span>
+            <span class="yellow">RINGS</span>
+          </h1>
+          <p>set your target and step away from the charts,<br>when it hits - no notification, no banner<br>- we call you</p>
+          <a class="button button-outline hero-button telegram-hover" href="https://t.me/JoinVigilBot" target="_blank" rel="noopener noreferrer" aria-label="Create alert now">
+            <span class="hover-label" aria-hidden="true">CREATE ALERT NOW</span>
+            <span class="telegram-reveal" aria-hidden="true">
+              <img src="assets/images/telegram.png" alt="">
+            </span>
+          </a>
+        </div>
+        <img class="hero-image" src="assets/images/hero-image.png" alt="">
+        <div class="metrics" aria-label="Vigil metrics">
+          <article>
+            <strong>&lt;3S</strong>
+            <span>ALERT TO CALL</span>
+          </article>
+          <article>
+            <strong>∞</strong>
+            <span>PRICE ALERTS</span>
+          </article>
+          <article>
+            <strong>0</strong>
+            <span>CHART WATCHING</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section steps" aria-labelledby="steps-title">
+        <h2 id="steps-title">FOUR STEPS &amp; NEVER MISS A MOVE</h2>
+        <div class="step-flow">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3>Join Vigil</h3>
+            <img src="assets/images/telegram.png" alt="">
+            <p>click the link above and join the vigil telegram bot</p>
+          </article>
+          <img class="arrow" src="assets/images/right.png" alt="">
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3>Set a price level</h3>
+            <img src="assets/images/plus-minus.png" alt="">
+            <p>pick any index<br>Define your target<br>above or below</p>
+          </article>
+          <img class="arrow" src="assets/images/right.png" alt="">
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3>Vigil watches</h3>
+            <img class="market-icon" src="assets/images/market.png" alt="">
+            <p>Realtime feed.<br>Microsecond polling.<br>Always on</p>
+          </article>
+          <img class="arrow" src="assets/images/right.png" alt="">
+          <article class="step-card">
+            <span class="step-number">04</span>
+            <h3>Your phone rings</h3>
+            <img class="phone-call-icon" src="assets/images/phone-call.png" alt="">
+            <p>Direct text to speech call. Alerting you</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="comparison" class="section comparison" aria-labelledby="comparison-title">
+        <div class="comparison-art" aria-hidden="true">
+          <img class="notify-image" src="assets/images/notify-vs-call-clean.png" alt="">
+        </div>
+        <h2 id="comparison-title">
+          <span>Notifications</span>
+          <span>get <em>ignored.</em></span>
+          <span>Calls get</span>
+          <span>answered.</span>
+        </h2>
+        <div class="comparison-lower">
+          <p>Every broker has an alert. Yours buzzes, you glance, you dismiss. The moment is gone. Vigil routes a real voice call to your phone- the same way a person would reach you with urgent news.</p>
+          <div class="comparison-table" aria-label="Vigil compared with other brokers">
+            <div class="pill muted">Other Brokers</div>
+            <div class="pill accent">Vigil</div>
+            <div class="pill muted">Push<br>notification</div>
+            <div class="pill accent">Voice calls</div>
+            <div class="pill muted">Ignorable</div>
+            <div class="pill accent">Unignorable</div>
+            <div class="pill muted">Broker app</div>
+            <div class="pill accent image-pill"><span>Telegram.</span><span>Any phone</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features" aria-labelledby="features-title">
+        <h2 id="features-title">Built for traders who can&rsquo;t afford to miss</h2>
+        <div class="feature-grid">
+          <article>
+            <img src="assets/images/radars.png" alt="">
+            <h3>Always-on</h3>
+            <p>Real time feed<br>Monitors every tick while you live your life</p>
+          </article>
+          <article>
+            <img class="phone-icon" src="assets/images/phone.png" alt="">
+            <h3>Voice call delivery</h3>
+            <p>Routed through voice<br>works on any phone, anywhere in India</p>
+          </article>
+          <article>
+            <img src="assets/images/settings.png" alt="">
+            <h3>Multi-level edits</h3>
+            <p>Set multiple triggers per index. Above below or both</p>
+          </article>
+          <article>
+            <img src="assets/images/lightning.png" alt="">
+            <h3>Sub-3s latency</h3>
+            <p>From price hit to call ringing. Not delayed. Not batched. Now</p>
+          </article>
+          <article>
+            <img src="assets/images/robot.png" alt="">
+            <h3>Telegram Bot</h3>
+            <p>A single bot for all your needs</p>
+          </article>
+          <article>
+            <img src="assets/images/file.png" alt="">
+            <h3>Alert log</h3>
+            <p>Every trigger time stamped.Review what fired, when &amp; at what price</p>
+          </article>
+        </div>
+        <blockquote>
+          <p>&ldquo;Your strategy deserves more than a notification</p>
+          <p>Vigil turns critical price levels</p>
+          <p>into impossible-to-miss phone calls&rdquo;</p>
+          <cite>-vigil</cite>
+        </blockquote>
+      </section>
+
+      <section id="pricing" class="section pricing" aria-labelledby="pricing-title">
+        <div>
+          <h2 id="pricing-title">
+            <span>The next</span>
+            <span>Opportunity</span>
+            <span class="yellow">won&rsquo;t wait</span>
+          </h2>
+          <p>Join the telegram bot in under 1 minute. Define your levels. Put your phone down. Vigil handles the rest</p>
+        </div>
+        <article class="price-card">
+          <p class="eyebrow">EARLY ACCESS</p>
+          <h3>Free</h3>
+          <p class="price-note"><span>During beta</span><span class="note-dot" aria-hidden="true">.</span><span>No credit card</span></p>
+          <ul>
+            <li>Unlimited price levels</li>
+            <li>Easy to use telegram bot</li>
+            <li>Direct voice calls</li>
+          </ul>
+          <a class="button button-filled" href="https://t.me/JoinVigilBot" target="_blank" rel="noopener noreferrer">JOIN VIGIL NOW</a>
+        </article>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="#">Vigil</a>
+        <span>.</span>
+        <p>BUILT FOR INDIAN MARKETS</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <span class="footer-static">PRIVACY</span>
+        <span class="footer-static">TERMS</span>
+        <div class="footer-contact">
+          <button class="contact-trigger" type="button" aria-expanded="false" aria-controls="contact-popover">CONTACT</button>
+          <div class="contact-popover" id="contact-popover" role="dialog" aria-label="Choose a number to call" hidden>
+            <div class="contact-popover-glow" aria-hidden="true"></div>
+            <p>Call Vigil</p>
+            <a href="tel:+918547799640">
+              <span>Sougandh</span>
+              <strong>+91 85477 99640</strong>
+            </a>
+            <a href="tel:+917012111951">
+              <span>Abhiram</span>
+              <strong>+91 70121 11951</strong>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="footer-socials">
+        <div class="socials" aria-label="Social links">
+          <a class="social-link" href="https://www.instagram.com/abh1ram__ashok/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/images/instagram.png" alt="">
+          </a>
+          <a class="social-link" href="https://x.com/AbhiramAshok9" target="_blank" rel="noopener noreferrer" aria-label="X">
+            <img src="assets/images/twitter.png" alt="">
+          </a>
+          <a class="social-link" href="#" aria-label="LinkedIn"><img src="assets/images/linkedin.png" alt=""></a>
+        </div>
+        <p class="icon-credit">Icons by <a href="https://www.flaticon.com" target="_blank" rel="noopener noreferrer">Flaticon</a></p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="button-hover.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script src="scroll-reveal.js"></script>
+    <script src="contact-popover.js"></script>
+  </body>
+</html>
